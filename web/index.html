@@ -1,47 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Sistema de Gerenciamento Comercial</title>
-        <!-- Bootstrap core CSS-->
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <!-- Custom fonts for this template-->
-        <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <!-- Custom styles for this template-->
-        <link href="css/sb-admin.css" rel="stylesheet">
-    </head>
+<head>
 
-    <body class="bg-dark">
-        <div class="container">
-            <div class="card card-login mx-auto mt-5">
-                <div class="card-header">Sistema de Gestão Comercial</div>
-                <div class="card-body">
-                    <form action="inicio/inicio.jsp" method="post">
-                        <div class="form-group">
-                            <input required class="form-control" id="exampleInputEmail1" type="text" aria-describedby="emailHelp" placeholder="Login">
-                        </div>
-                        <div class="form-group">
-                            <input required class="form-control" id="exampleInputPassword1" type="password" placeholder="Senha">
-                        </div>
-                        <button class="btn btn-primary btn-block" type="submit">Acessar</button>
-                    </form>
-                    <div class="text-center">
-                        <a class="d-block small mt-3" href="register.html">Crie sua conta agora!</a>
-                        <a class="d-block small" href="forgot-password.html">Esqueceu sua senha?</a>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sistema de Gerenciamento Comercial</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="elementos/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="elementos/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="elementos/dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="elementos/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="login-panel panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Sistema de Gerenciamento Comercial</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form method="post" action="inicio/inicio.jsp">
+                            <fieldset>
+                                <div class="form-group">
+                                    <input required class="form-control" placeholder="Login" name="login" type="text" autofocus>
+                                </div>
+                                <div class="form-group">
+                                    <input required class="form-control" placeholder="Password" name="password" type="password" value="">
+                                </div>
+                                <div class="form-group">
+                                    <a href="#">Registrar-se</a>
+                                </div>
+                                <div class="form-group">
+                                    <a href="#">Esqueci minha senha</a>
+                                </div>
+                                <!-- Change this to a button or input when using this as a form -->
+                                <button type="submit" class="btn btn-lg btn-success btn-block">Login</button>
+                            </fieldset>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Bootstrap core JavaScript-->
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <!-- Core plugin JavaScript-->
-        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    </body>
+    </div>
+
+    <!-- jQuery -->
+    <script src="elementos/vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="elementos/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="elementos/vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="elementos/dist/js/sb-admin-2.js"></script>
+
+</body>
 
 </html>
