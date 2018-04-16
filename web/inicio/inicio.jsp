@@ -9,7 +9,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Sistema de Gestão Comercial</title>
+        <title>Sistema de Gerenciamento Comercial</title>
 
         <!-- Bootstrap Core CSS -->
         <link href="../elementos/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -108,6 +108,28 @@
                                     </div>
                                 </div>
                                 <a href="../estoque/produtos.jsp">
+                                    <div class="panel-footer">
+                                        <span class="pull-left">Acessar</span>
+                                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <i class="fa fa-dollar fa-5x"></i>
+                                        </div>
+                                        <div class="col-xs-9 text-right">
+                                            <div class="huge">Financeiro</div>
+                                            <div>Gerenciar Financeiro</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="../financeiro/financeiro.jsp">
                                     <div class="panel-footer">
                                         <span class="pull-left">Acessar</span>
                                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
